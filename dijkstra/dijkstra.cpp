@@ -43,9 +43,9 @@ int main(int argc, char *argv[]){
 
         if(arg == "-h"){
             cout << "Help:" << endl;
-            cout << "-h: Mostra help" << endl;
-            cout << "-o <arquivo>: redireciona output para arquivo" << endl;
-            cout << "-f <arquivo>: especifica o arquivo com o grafo de input" << endl;
+            cout << "-h: Mostra o help" << endl;
+            cout << "-o <arquivo>: redireciona a saida para o arquivo" << endl;
+            cout << "-f <arquivo>: indica o ‘‘arquivo’’ que contém o grafo de entrada" << endl;
             cout << "-i: vertice inicial" << endl;
             return 0;
         } 
